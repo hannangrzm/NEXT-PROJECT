@@ -54,9 +54,9 @@ export default function Step1Details() {
     <h1>Publish New Campaign</h1> 
     <h2 className="my-8">Campaign Details</h2>
 
-    <div className="flex gap-10">
+    <div className="flex flex-col lg:flex-row gap-10">
 
-    <div className="w-1/2">
+    <div className="w-full lg:w-1/2">
         
         <div className="mb-5"> 
           <label>Type of Campaign:</label>
@@ -117,7 +117,7 @@ export default function Step1Details() {
       
     </div>
 
-    <div className="w-1/2 flex flex-col justify-between">
+    <div className="w-full lg:w-1/2 flex flex-col justify-between">
       
       <div className="aspect-[16/9] bg-neutral-200 rounded-lg flex items-center justify-center w-full relative overflow-hidden">
 
